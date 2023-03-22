@@ -125,6 +125,14 @@ cite {
   margin-top: auto;
 }
 
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow-x: hidden;
+}
+
 footer {
   font-size: 0.875rem;
   padding-block: 0.75rem;
