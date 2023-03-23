@@ -185,10 +185,6 @@ footer {
   align-items: center;
 }
 
-.grid {
-  display: grid;
-}
-
 .absolute {
   position: absolute;
 }
