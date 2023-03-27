@@ -2,25 +2,44 @@
 <html lang="pt-PT">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/ico" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link
+      rel="icon"
+      type="image/ico"
+      href="/favicon.ico"
+    />
+    
+    <link
+        href="/webclip.png"
+        rel="apple-touch-icon"
+    />
+    
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    
     <title>The Lean Insight | Suporte Primavera</title>
-		<link
+		
+    <link
 			rel="preconnect"
 			href="https://fonts.googleapis.com"
 		/>
-		<link
+		
+    <link
 			rel="preconnect"
 			href="https://fonts.gstatic.com"
 			crossorigin
 		/>
-		<link
+		
+    <link
 			rel="preload"
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
 			as="style"
 			onload="this.onload=null;this.rel='stylesheet'"
 		/>
-		<link
+		
+    <link
 			rel="preload"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
 			as="style"
@@ -29,14 +48,15 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+    
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!-- Header -->
-    <header class="section header--section">
-      <div class="flex container header--container">
-        <div class="logo__img--wrapper">
-          <img src="/assets/images/Lean-Minimo-Canvas-Transparente.png" alt="The Lean Insight logo" class="logo__img">
+    <header class="flex section header--section">
+      <div class="flex container">
+        <div class="relative logo__img--wrapper">
+          <img src="/assets/images/Lean-Minimo-Canvas-Transparente.png" alt="The Lean Insight logo" class="absolute logo__img">
           
           <span class="sr_only">
             The Lean Insight, desde 2011
@@ -48,16 +68,14 @@
     <main>
       <!-- Hero -->
       <section class="section hero__section" name="video content">
-        <h1 class="uppercase section__title">
-          Provavelmente o melhor Suporte Primavera!
-        </h1>
-
-        <h2 class="section__subtitle">
-          Valor fixo, sem limite de horas, de fácil acesso e rápida solução.
-        </h2>
-
-        <div style="max-width: 640px">
-          <div style="position: relative; padding-bottom: 56.25%; overflow: hidden;">
+        <div class="container grid">
+          <h1 class="uppercase section__title">
+            Provavelmente o melhor Suporte Primavera!
+          </h1>
+          <h2 class="section__subtitle">
+            Valor fixo, sem limite de horas, de fácil acesso e rápida solução.
+          </h2>
+          <div class="video__container relative flex flex-center">
             <iframe
               src="/assets/videos/Lean-ConsultoresStoc21032023.mp4"
               width="640"
@@ -67,20 +85,19 @@
               sandbox=""
               allowfullscreen
               title="Lean-Consultores_STOC_21032023.mp4"
-              style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"
+              class="absolute video__iframe"
             >
             </iframe>
           </div>
+          <a href="#name" class="action__btn">
+            Peça já uma proposta sem compromisso
+          </a>
         </div>
-
-        <a href="#name" class="action__btn">
-          Peça já uma proposta sem compromisso
-        </a>
       </section>
 
       <!-- About -->
       <section class="section main__section">
-        <div class="container">
+        <div class="container grid">
           <h2 class="section__subtitle">
             A Lean oferece aos seus clientes um serviço de suporte Primavera de excelência, que prima pela eficiência.
           </h2>
@@ -136,11 +153,11 @@
               </p>
             </li>
           </ul>
+  
+          <a href="#name" class="action__btn">
+            Peça já uma proposta sem compromisso
+          </a>
         </div>
-
-        <a href="#name" class="action__btn">
-          Peça já uma proposta sem compromisso
-        </a>
       </section>
 
       <!-- Testimonials -->
@@ -200,11 +217,11 @@
 				<section
         name="contact form"
         id="contacto"
-        class="section main__section"
+        class="section main__section contact"
       >
         <div class="container grid">
           <h2
-            class="section__title form_title uppercase"
+            class="section__title form__title uppercase"
             data-content
           >
             Peça já a sua demonstração gratuita e sem compromisso!
