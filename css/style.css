@@ -675,8 +675,21 @@ footer {
   text-align: center;
 }
 
+.success,
+.error {
+  margin: 0 auto;
+}
+
+.success {
+  color: #00b300;
+}
+
 .error {
   color: #ff0000;
+}
+
+.brand {
+  margin-top: 1rem;
 }
 
 /* Privacy Policy Dialog */
