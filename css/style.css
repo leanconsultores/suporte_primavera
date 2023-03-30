@@ -131,12 +131,14 @@ blockquote {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 cite {
   display: inline-block;
   width: 100%;
-  text-align: right;
+  text-align: center;
   margin-top: auto;
 }
 
@@ -273,8 +275,10 @@ footer {
   margin-inline: auto;
   font-weight: 700;
   text-align: center;
-  color: #2a2a2a;
-  background: linear-gradient(90deg, #2e7916 0%, #59db3a 50%, #a5e986 100%);
+  /* color: #2a2a2a; */
+  color: var(--bg-clr-light);
+  /* background: linear-gradient(90deg, #358a01 0%, #13ca13 50%, #91e56f 100%); */
+  background: #358a01;
   border-radius: var(--br);
   border: none;
   outline: none;
@@ -690,6 +694,7 @@ footer {
 
 .brand {
   margin-top: 1rem;
+  margin-inline: auto;
 }
 
 /* Privacy Policy Dialog */
