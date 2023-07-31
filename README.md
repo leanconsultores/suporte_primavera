@@ -4,23 +4,24 @@ Página promocional para divulgação do serviço de suporte para clientes da pl
 
 ## Ambientes
 
-### - Produção
+### Produção
 
 Destinado a ser integrado com o cPanel para CI/CD.
 
- - **branch:** main
- - **site:** [lean-consultores.com/suporteprimavera](https://lean-consultores.com/suporteprimavera)
+- **branch:** main
+- **site:** [lean-consultores.com/suporteprimavera](https://lean-consultores.com/suporteprimavera)
 
-### - Teste
+### Teste
 
 Destinado a pre-visualização, análise e teste das alterações feitas em desenvolvimento.
 
- - **branch:** staging
- - **site:** [githubpages](https://leanconsultores.github.io/suporte_primavera/)
+- **branch:** staging
 
-### - Desenvolvimento
+- **site:** [githubpages](https://leanconsultores.github.io/suporte_primavera/)
 
- - **brach:** development
+### Desenvolvimento
+
+- **brach:** development
 
 Destinado a manter as atualizações de desenvolvimento.
 

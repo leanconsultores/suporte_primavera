@@ -129,7 +129,7 @@ blockquote {
 
 cite {
   display: inline-block;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   margin-top: auto;
 }
@@ -365,7 +365,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-.testimonials__card {
+/* .testimonials__card {
   max-width: 468px;
   padding: 1rem;
   margin-inline: auto;
@@ -375,11 +375,105 @@ footer {
   box-shadow: 1px 1px 5px var(--shadow-clr);
   gap: 0.5em;
   grid-template-rows: auto 1fr;
+} */
+.testimonials__card {
+  /* max-width: 468px; */
+  padding: 1rem;
+  padding-inline: 3rem;
+  background-color: var(--background-clr);
+  color: var(--main-clr);
+  gap: 0.5em;
+  grid-template-rows: auto auto;
+}
+
+.testimonials__card cite {
+  font-weight: 300;
+  font-size: 0.75rem;
 }
 
 .company__logo {
   height: 4.5rem;
   margin: 0 auto;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  /* height: 355px; */
+  height: fit-content;
+  margin: 0 auto;
+}
+
+.carousel-content {
+  position: relative;
+  overflow: hidden;
+  transition: width 0.4s;
+  /* height: 100%; */
+  height: fit-content;
+}
+
+.slide {
+  position: absolute;
+  z-index: 1;
+  height: fit-content;
+  background-color: black;
+  transition: left 0.4s cubic-bezier(0.47, 0.13, 0.15, 0.89);
+}
+
+/* .slide-1 {
+  color: #fff;
+}
+
+.slide-2 {
+  background-color: green;
+}
+
+.slide-3 {
+  background-color: red;
+}
+
+.slide-4 {
+  background-color: purple;
+}
+
+.slide-5 {
+  background-color: yellow;
+} */
+
+.nav {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: rgba(150, 150, 150, 0.3);
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.nav:hover {
+  background-color: rgba(150, 150, 150, 0.3);
+  color: #fff;
+}
+
+.nav-left {
+  left: 0px;
+}
+
+.nav-right {
+  right: 0px;
+}
+
+.carousel-arrow-icon-left,
+.carousel-arrow-icon-right {
+  font-size: 2.5rem;
 }
 
 /* CONTACT */
